@@ -15,12 +15,16 @@ public class App {
         // s1.eating();
         // s1.playing();
         // copy consturctor
-        Student B = new Student(s1);
-        System.out.println(B.name);
-        System.out.println(B.id);
-        System.out.println(B.age);
-        System.out.println(B.nos);
-        B.eating();B.playing();
+        // Student B = new Student(s1);
+        // System.out.println(B.name);
+        // System.out.println(B.id);
+        
+       System.out.println(s1.getName());
+       System.out.println(s1.getAge());
+       s1.setAge(24);
+       System.out.println(s1.getAge());
+        // B.eating();
+        // B.playing();
 
     }
 }
